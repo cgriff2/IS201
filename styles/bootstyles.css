@@ -1,3 +1,4 @@
+
 .commons {
     font-family: 'Noto';
     font-size: 41px;
@@ -61,9 +62,10 @@
     top: 500px;
     left: 0px;
     right: 0px;
-    bottom:1000px;
-    z-index: 4;
-    box-sizing: border-box;
+    bottom:3000px;
+    z-index: 3;
+    box-sizing:content-box;
+    padding-top: 400px;
     padding: 100px;
     padding-bottom: 200px;
     align-items: center;
@@ -72,21 +74,10 @@
     
 }
 
-.footer {
-    position: absolute;
-    top: 1000px;
-    left: 0px;
-    right: 0px;
-    bottom: 1500px;
-    z-index: 3;
-    background-color: white;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
 .commoner {
     font-family: 'Lora';
     font-size: 20;
+    background-color: white;
 }
 
 .links {
@@ -105,7 +96,7 @@
 }
 
 a:link {
-    color:rgb(252, 252, 252);
+    color:rgb(0, 0, 0);
     text-decoration: underline;
 }
 
@@ -114,9 +105,33 @@ a:hover {
     text-decoration: none;
 }
 
-.visited {
-    color:rgb(56, 97, 97);
+.visited {color:rgb(56, 97, 97);}
+
+.tableau {
+    height: 700px;
+    width: auto;
+    padding-left: 300px;
+    padding-right: 300px;
 }
+
+.foot {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    align-items: center;
+    
+}
+
+.footer {
+    position: absolute;
+    top: 3700px;
+    height: 100px;
+    width: 100%;
+    z-index: 4;
+    background-color: white;
+}
+
 
 @font-face {
     font-family: Noto;
