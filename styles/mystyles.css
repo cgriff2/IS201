@@ -36,3 +36,12 @@
 .height { height:300px; }
 
 .captions {font-family: 'Thinny'; font-weight: bold;}
+
+a:hover {
+    color: rgb(89, 141, 141);
+    text-decoration: none;
+}
+
+a:link {
+    color:black;
+}
